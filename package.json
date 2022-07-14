@@ -1,0 +1,35 @@
+{
+  "name": "backendtickitz",
+  "version": "1.0.0",
+  "description": "Backend Tickitz",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Hello World\"",
+    "start": "nodemon app.js",
+    "lint": "eslint --fix **/*.js"
+  },
+  "keywords": [
+    "node.js",
+    "express",
+    "postgresql"
+  ],
+  "author": "Irsad",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "express-paginate": "^1.0.2",
+    "joi": "^14.0.4",
+    "jsonwebtoken": "^8.5.1",
+    "multer": "^1.4.4",
+    "nodemon": "^2.0.19",
+    "pg": "^8.7.3",
+    "pg-format": "^1.0.4"
+  },
+  "devDependencies": {
+    "@types/joi": "^17.2.3",
+    "eslint": "^8.13.0"
+  }
+}
